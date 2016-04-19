@@ -1,10 +1,10 @@
 ----------------------------------------------------------------------
---Database restore script that: 
---1. Gets the latest full and diff backups by timestamp. Compare
---the timestamp on the differential to the timestamp on the full
---backup before restoring the differential.
---2. Sets the appropriate variables for the full and diff backup files.
---3. Restores the latest full, then the latest differential.
+-- Database restore script that: 
+-- 1. Gets the latest full and diff backups by timestamp and compares
+--    the timestamp on the differential to the timestamp on the full
+--    backup before restoring the differential.
+-- 2.  Sets the appropriate variables for the full and diff backup files.
+-- 3.  Restores the latest full, then the latest differential.
 ----------------------------------------------------------------------
 USE [MASTER]
 GO
