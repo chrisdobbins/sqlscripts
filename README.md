@@ -1,5 +1,5 @@
 # sqlscripts
-A repo for useful (to me) T-SQL scripts/stored procedures.
+A repo for useful (to me) T-SQL scripts/stored procedures. I only have access to SQL Server 2008R2; I can't guarantee that this will work with other versions.
 
 Scripts
 * restore latest diff and full.sql
